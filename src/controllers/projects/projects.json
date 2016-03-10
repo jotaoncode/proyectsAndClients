@@ -1,0 +1,12 @@
+module.exports = [{
+    "id": 1,
+    "name": "Google project",
+    "client": "Larry Page & Sergey Brin",
+    "budge": "123123$$"
+  }, {
+    "id": 2,
+    "name": "Facebook project",
+    "client": "Mr kukerberg",
+    "budge": "333333$$"
+  }
+];

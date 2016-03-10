@@ -1,0 +1,15 @@
+<table class="table-directors">
+  <thead class="table-header">
+    <th ng-repeat="header in headers">
+      {{header.name}}
+    </th>
+  </thead>
+  <tbody>
+    <tr ng-repeat="row in content">
+      <td ng-repeat="attribute in row" class="director-attr">
+        <button ng-show="attribute.isButton" ng-click="attribute.click(row)">x</button>
+        <span ng-hide="attribute.isOptions"  ng-click="tableCtrl.goToDetail($index, details)">{{attribute}}</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
